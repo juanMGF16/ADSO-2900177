@@ -20,3 +20,35 @@
 3. Leer un real e imprimir si el número es positivo o negativo.
 4.	Leer un real e imprimir si el número es mayor a 200 o no.
 5.	Leer un real e imprimir si el número está en el rango de 50 y 100.
+
+## solución
+
+- 1. Obtener el porcentaje que cada quien invierte con respecto a la cantidad total invertida.
+    ```
+    INICIO
+        DEFINIR inversion1, inversion2, inversion3, total COMO REAL
+    
+        inversion1 = 0.0
+        inversion2 = 0.0
+        inversion3 = 0.0
+        total = 0.0
+
+        ESCRIBA "Dijite la primera inversión: "
+        LEA inversion1
+
+        ESCRIBA "Dijite la segunda inversión: "
+        LEA inversion2
+
+        ESCRIBA "Dijite la tercera inversión: "
+        LEA inversion3
+
+        total = inversion1 + inversion2 + inversion3
+
+        ESCRIBA "El total de la inversión es de: ",total
+
+        ESCRIBA "El porcentaje de la primera inversión es de: ",(inversion1 * 100) / total,"%"
+        ESCRIBA "El porcentaje de la segunda inversión es de: ",(inversion2 * 100) / total,"%"
+        ESCRIBA "El porcentaje de la tercera inversión es de: ",(inversion3 * 100) / total,"%"
+    FIN
+    ```
+     
