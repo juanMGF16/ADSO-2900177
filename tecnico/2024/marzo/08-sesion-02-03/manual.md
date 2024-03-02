@@ -28,12 +28,6 @@ Text that is not a quote
 
 Al texto entre comillas se le ha aplicado sangría 
 
+## 4. Imagenes
 ![hgjdfk gs](img/descarga.png)
-## 3. Entrecomillado de texto
-Puede entrecomillar texto con >.
 
-Text that is not a quote
-
-> Text that is a quote
-
-Al texto entre comillas se le ha aplicado sangría 
