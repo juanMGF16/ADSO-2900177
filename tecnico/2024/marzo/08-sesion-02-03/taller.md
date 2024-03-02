@@ -51,4 +51,20 @@
         ESCRIBA "El porcentaje de la tercera inversión es de: ",(inversion3 * 100) / total,"%"
     FIN
     ```
-     
+    ```py
+    inversion1 = 0.0
+    inversion2 = 0.0
+    inversion3 = 0.0
+    total = 0.0
+    
+    inversion1 = float(input("Dijite la primera inversión: "))
+    inversion2 = float(input("Dijite la segunda inversión: "))
+    inversion3 = float(input("Dijite la tercera inversión: "))
+    
+    total = inversion1 + inversion2 + inversion3
+    
+    print("El total de la inversión es de: "+str(total))
+    print("El porcentaje de la primera inversión es de: ",(inversion1 * 100)/total,"%")
+    print("El porcentaje de la segunda inversión es de: ",(inversion2 * 100)/total,"%")
+    print("El porcentaje de la tercera inversión es de: ",(inversion3 * 100)/total,"%")
+    ```
