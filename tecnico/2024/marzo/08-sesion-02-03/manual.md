@@ -98,6 +98,22 @@ A footnote can also have multiple lines[^2].
 [^1]: My reference.
 [^2]: To add line breaks within a footnote, prefix new lines with 2 spaces.
 ```
+## 9. Código de cita
+Puedes indicar un código o un comando dentro de un enunciado con comillas simples. El texto dentro de las comillas simples no será formateado. T
+```
+Use `git status` to list all new or modified files that haven't yet been committed.
+```
+Use `git status` to list all new or modified files that haven't yet been committed.
+
+Para formatear código o texto en su propio bloque distintivo, usa comillas triples.
+
+Some basic Git commands are:
+```
+git status
+git add
+git commit
+```
+
 
 
 
