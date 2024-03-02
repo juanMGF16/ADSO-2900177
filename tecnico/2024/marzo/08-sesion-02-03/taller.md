@@ -23,7 +23,7 @@
 
 ## solución
 
-- 1. Obtener el porcentaje que cada quien invierte con respecto a la cantidad total invertida.
+- Obtener el porcentaje que cada quien invierte con respecto a la cantidad total invertida.
     ```
     INICIO
         DEFINIR inversion1, inversion2, inversion3, total COMO REAL
