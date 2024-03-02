@@ -28,4 +28,4 @@ Text that is not a quote
 
 Al texto entre comillas se le ha aplicado sangría 
 
-![hgjdfk gs](/img/descarga.png)
+![hgjdfk gs](img/descarga.png)
