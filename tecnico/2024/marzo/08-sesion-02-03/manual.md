@@ -84,8 +84,6 @@ Puedes agregar emoji a la escritura escribiendo :EMOJICODE:, dos puntos seguidos
 
 Escriba : mostrará una lista de emojis sugeridos. La lista se filtrará a medida que escriba, por lo que una vez que encuentre el emoji que está buscando, pulse Tab o Entrar para completar el resultado resaltado.
 
-Para obtener una lista completa de los códigos y emoji disponibles, consulta la hoja de referencia rápida de los emoji.
-
 ## 8. Notas al pie
 Puedes agregar notas al pie para tu contenido si utilizas esta sintaxis de corchetes:
 
