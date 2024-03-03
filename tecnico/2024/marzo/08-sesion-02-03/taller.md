@@ -118,7 +118,7 @@
         ESCRIBA"Dijite la calificación de su segunda tarea de fisica: "
         LEA tF2
     
-         ESCRIBA"Dijite la calificación de su examen de quimica: "
+        ESCRIBA"Dijite la calificación de su examen de quimica: "
         LEA examenQ
         ESCRIBA"Dijite la calificación de su primera tarea de quimica: "
         LEA tQ1
