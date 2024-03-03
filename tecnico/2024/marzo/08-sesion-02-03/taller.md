@@ -213,7 +213,22 @@
     print("El promedio general de las materias: "+str(promedioGeneral))
     ```
 - Leer un real e imprimir si el número es positivo o negativo.
-
+    ```
+    INICIO
+        DEFINIR numero COMO REAL
+        
+        numero = 0.0
+        
+        ESCRIBA"Dijite un numero: "
+        LEA numero
+    
+        SI numero > 0 ENTONCES
+            ESCEIBA"El número es positivo"
+        SI NO
+            ESCRIBA"El número es negativo"
+        FIN SI
+    FIN
+    ```
     ```py
     numero = 0.0
 
@@ -225,7 +240,22 @@
         print("El número es negativo")
     ```
 - Leer un real e imprimir si el número es mayor a 200 o no.
+    ```
+    INICIO
+        DEFINIR numero COMO REAL
+        
+        numero = 0.0
+        
+        ESCRIBA"Dijite un numero: "
+        LEA numero
     
+        SI numero > 200 ENTONCES
+            ESCEIBA"El número es mayor a 200"
+        SI NO
+            ESCRIBA"El número es menor o igual a 200"
+        FIN SI
+    FIN
+    ```
     ```py
     numero = 0.0
 
@@ -237,7 +267,22 @@
         print("El número es menor o igual a 200")    
     ```
 - Leer un real e imprimir si el número está en el rango de 50 y 100.
-
+     ```
+    INICIO
+        DEFINIR numero COMO REAL
+        
+        numero = 0.0
+        
+        ESCRIBA"Dijite un numero: "
+        LEA numero
+    
+        SI  numero >= 50 Y numero <= 100 ENTONCES
+            ESCEIBA"El número esta en el rango de 50 y 100"
+        SI NO
+            ESCRIBA"El número no esta en el rango de 50 y 100"
+        FIN SI
+    FIN
+    ```
     ```py
     numero = 0.0
 
