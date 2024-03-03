@@ -212,3 +212,39 @@
     print("El promedio de la materia de quimica es de: "+str(promedioQ))
     print("El promedio general de las materias: "+str(promedioGeneral))
     ```
+- Leer un real e imprimir si el número es positivo o negativo.
+
+    ```py
+    numero = 0.0
+
+    numero = float(input("Dijite un numero: "))
+    
+    if numero > 0:
+        print("El número es positivo")
+    else:
+        print("El número es negativo")
+    ```
+- Leer un real e imprimir si el número es mayor a 200 o no.
+    
+    ```py
+    numero = 0.0
+
+    numero = float(input("Dijite un numero: "))
+    
+    if numero > 200:
+        print("El número es mayor a 200")
+    else:
+        print("El número es menor o igual a 200")    
+    ```
+- Leer un real e imprimir si el número está en el rango de 50 y 100.
+
+    ```py
+    numero = 0.0
+
+    numero = float(input("Dijite un numero: "))
+    
+    if numero >= 50 and numero <= 100 :
+        print("El número esta en el rango de 50 y 100")
+    else:
+        print("El número no esta en el rango de 50 y 100")
+    ```
