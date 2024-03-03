@@ -73,9 +73,8 @@
     ```
     INICIO
         DEFINIR promedioGeneral, promedioM, promedioF, promedioQ, examenM, examenF, examenQ,
-        tareasM, tareasF, tareasQ, promedioTM, promedioTF, promedioTQ, tM1, tM2, tM3, tF1, tF2,
-        tQ1, tQ2, tQ3, porcientoTM, porcientoEM, porcientoTF, porcientoEF, porcientoTQ,
-        porcientoEQ COMO REAL
+        tareasM, tareasF, tareasQ, tM1, tM2, tM3, tF1, tF2, tQ1, tQ2, tQ3, porcientoTM,
+        porcientoEM, porcientoTF, porcientoEF, porcientoTQ, porcientoEQ COMO REAL
     
         promedioGeneral = 0.0
         promedioM = 0.0
