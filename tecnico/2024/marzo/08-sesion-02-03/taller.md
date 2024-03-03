@@ -68,3 +68,70 @@
     print("El porcentaje de la segunda inversión es de: ",(inversion2 * 100)/total,"%")
     print("El porcentaje de la tercera inversión es de: ",(inversion3 * 100)/total,"%")
     ```
+- Un alumno desea saber cuál será su promedio general en las tres materias más difíciles que cursa y cuál será el promedio que obtendrá en cada una de ellas.
+  
+    ```py
+    promedioGeneral = 0.0
+    promedioM = 0.0
+    promedioF = 0.0
+    promedioQ = 0.0
+    examenM = 0.0
+    examenF = 0.0
+    examenQ = 0.0
+    tareasM = 0.0
+    tareasF = 0.0
+    tareasQ = 0.0
+    promedioTM = 0.0
+    promedioTF = 0.0
+    promedioTQ = 0.0
+    tM1 = 0.0
+    tM2 = 0.0
+    tM3 = 0.0
+    tF1 = 0.0
+    tF2 = 0.0
+    tQ1 = 0.0
+    tQ2 = 0.0
+    tQ3 = 0.0
+    porcientoTM = 0.0
+    porcientoEM = 0.0
+    porcientoTF = 0.0
+    porcientoEF = 0.0
+    porcientoTQ = 0.0
+    porcientoEQ = 0.0
+    
+    examenM = float(input("Dijite la calificación de su examen de matematicas: "))
+    tM1 = float(input("Dijite la calificación de su primera tarea de matematicas: "))
+    tM2 = float(input("Dijite la calificación de su segunda tarea de matematicas: "))
+    tM3 = float(input("Dijite la calificación de su tercera tarea de matematicas: "))
+    
+    examenF = float(input("Dijite la calificación de su examen de fisica: "))
+    tF1 = float(input("Dijite la calificación de su primera tarea de fisica: "))
+    tF2 = float(input("Dijite la calificación de su segunda tarea de fisica: "))
+    
+    examenQ = float(input("Dijite la calificación de su examen de quimica: "))
+    tQ1 = float(input("Dijite la calificación de su primera tarea de quimica: "))
+    tQ2 = float(input("Dijite la calificación de su segunda tarea de quimica: "))
+    tQ3 = float(input("Dijite la calificación de su tercera tarea de quimica: "))
+    
+    promedioTM = (tM1 + tM2 + tM3 / 3)
+    porcientoEM = (examenM * 90 / 100)
+    porcientoTM = (promedioTM * 10 / 100)
+    promedioM = (porcientoEM + porcientoTM / 2)
+    
+    promedioTF = (tF1 + tF2 / 2)
+    porcientoEF = (examenF * 80 / 100)
+    porcientoTF = (promedioTF * 20 / 100)
+    promedioF = (porcientoEF + porcientoTF / 2)
+    
+    promedioTQ = (tQ1 + tQ2 + tQ3 / 3)
+    porcientoEQ = (examenQ * 85 / 100)
+    porcientoTQ = (promedioTQ * 15 / 100)
+    promedioQ = (porcientoEQ + porcientoTQ / 2)
+    
+    promedioGeneral = promedioM + promedioF + promedioQ / 3
+    
+    print("El promedio de la materia de matematicas es de: "+str(promedioM))
+    print("El promedio de la materia de fisica es de: "+str(promedioF))
+    print("El promedio de la materia de quimica es de: "+str(promedioQ))
+    print("El promedio general de las materias: "+str(promedioGeneral))
+    ```
