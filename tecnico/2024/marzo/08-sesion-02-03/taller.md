@@ -33,13 +33,13 @@
         inversion3 = 0.0
         total = 0.0
 
-        ESCRIBA "Dijite la primera inversión: "
+        ESCRIBA "Digite la primera inversión: "
         LEA inversion1
 
-        ESCRIBA "Dijite la segunda inversión: "
+        ESCRIBA "Digite la segunda inversión: "
         LEA inversion2
 
-        ESCRIBA "Dijite la tercera inversión: "
+        ESCRIBA "Digite la tercera inversión: "
         LEA inversion3
 
         total = inversion1 + inversion2 + inversion3
@@ -57,9 +57,9 @@
     inversion3 = 0.0
     total = 0.0
     
-    inversion1 = float(input("Dijite la primera inversión: "))
-    inversion2 = float(input("Dijite la segunda inversión: "))
-    inversion3 = float(input("Dijite la tercera inversión: "))
+    inversion1 = float(input("Digite la primera inversión: "))
+    inversion2 = float(input("Digite la segunda inversión: "))
+    inversion3 = float(input("Digite la tercera inversión: "))
     
     total = inversion1 + inversion2 + inversion3
     
@@ -102,29 +102,29 @@
         porcientoTQ = 0.0
         porcientoEQ = 0.0
 
-        ESCRIBA"Dijite la calificación de su examen de matematicas: "
+        ESCRIBA"Digite la calificación de su examen de matematicas: "
         LEA examenM
-        ESCRIBA"Dijite la calificación de su primera tarea de matematicas: "
+        ESCRIBA"Digite la calificación de su primera tarea de matematicas: "
         LEA tM1
-        ESCRIBA"Dijite la calificación de su segunda tarea de matematicas: "
+        ESCRIBA"Digite la calificación de su segunda tarea de matematicas: "
         LEA tM2
-        ESCRIBA"Dijite la calificación de su tercera tarea de matematicas: "
+        ESCRIBA"Digite la calificación de su tercera tarea de matematicas: "
         LEA tM3
 
-        ESCRIBA"Dijite la calificación de su examen de fisica: "
+        ESCRIBA"Digite la calificación de su examen de fisica: "
         LEA examenF
-        ESCRIBA"Dijite la calificación de su primera tarea de fisica: "
+        ESCRIBA"Digite la calificación de su primera tarea de fisica: "
         LEA tF1
-        ESCRIBA"Dijite la calificación de su segunda tarea de fisica: "
+        ESCRIBA"Digite la calificación de su segunda tarea de fisica: "
         LEA tF2
     
-        ESCRIBA"Dijite la calificación de su examen de quimica: "
+        ESCRIBA"Digite la calificación de su examen de quimica: "
         LEA examenQ
-        ESCRIBA"Dijite la calificación de su primera tarea de quimica: "
+        ESCRIBA"Digite la calificación de su primera tarea de quimica: "
         LEA tQ1
-        ESCRIBA"Dijite la calificación de su segunda tarea de quimica: "
+        ESCRIBA"Digite la calificación de su segunda tarea de quimica: "
         LEA tQ2
-        ESCRIBA"Dijite la calificación de su tercera tarea de quimica: "
+        ESCRIBA"Digite la calificación de su tercera tarea de quimica: "
         LEA tQ3
 
         tareasM = (tM1 + tM2 + tM3 / 3)
@@ -176,19 +176,19 @@
     porcientoTQ = 0.0
     porcientoEQ = 0.0
     
-    examenM = float(input("Dijite la calificación de su examen de matematicas: "))
-    tM1 = float(input("Dijite la calificación de su primera tarea de matematicas: "))
-    tM2 = float(input("Dijite la calificación de su segunda tarea de matematicas: "))
-    tM3 = float(input("Dijite la calificación de su tercera tarea de matematicas: "))
+    examenM = float(input("Digite la calificación de su examen de matematicas: "))
+    tM1 = float(input("Digite la calificación de su primera tarea de matematicas: "))
+    tM2 = float(input("Digite la calificación de su segunda tarea de matematicas: "))
+    tM3 = float(input("Digite la calificación de su tercera tarea de matematicas: "))
     
-    examenF = float(input("Dijite la calificación de su examen de fisica: "))
-    tF1 = float(input("Dijite la calificación de su primera tarea de fisica: "))
-    tF2 = float(input("Dijite la calificación de su segunda tarea de fisica: "))
+    examenF = float(input("Digite la calificación de su examen de fisica: "))
+    tF1 = float(input("Digite la calificación de su primera tarea de fisica: "))
+    tF2 = float(input("Digite la calificación de su segunda tarea de fisica: "))
     
-    examenQ = float(input("Dijite la calificación de su examen de quimica: "))
-    tQ1 = float(input("Dijite la calificación de su primera tarea de quimica: "))
-    tQ2 = float(input("Dijite la calificación de su segunda tarea de quimica: "))
-    tQ3 = float(input("Dijite la calificación de su tercera tarea de quimica: "))
+    examenQ = float(input("Digite la calificación de su examen de quimica: "))
+    tQ1 = float(input("Digite la calificación de su primera tarea de quimica: "))
+    tQ2 = float(input("Digite la calificación de su segunda tarea de quimica: "))
+    tQ3 = float(input("Digite la calificación de su tercera tarea de quimica: "))
     
     tareasM = (tM1 + tM2 + tM3 / 3)
     porcientoEM = (examenM * 90 / 100)
@@ -219,7 +219,7 @@
         
         numero = 0.0
         
-        ESCRIBA"Dijite un numero: "
+        ESCRIBA"Digite un número: "
         LEA numero
     
         SI numero > 0 ENTONCES
@@ -232,7 +232,7 @@
     ```py
     numero = 0.0
 
-    numero = float(input("Dijite un numero: "))
+    numero = float(input("Digite un número: "))
     
     if numero > 0:
         print("El número es positivo")
@@ -246,7 +246,7 @@
         
         numero = 0.0
         
-        ESCRIBA"Dijite un numero: "
+        ESCRIBA"Digite un número: "
         LEA numero
     
         SI numero > 200 ENTONCES
@@ -259,7 +259,7 @@
     ```py
     numero = 0.0
 
-    numero = float(input("Dijite un numero: "))
+    numero = float(input("Digite un número: "))
     
     if numero > 200:
         print("El número es mayor a 200")
@@ -273,7 +273,7 @@
         
         numero = 0.0
         
-        ESCRIBA"Dijite un numero: "
+        ESCRIBA"Digite un número: "
         LEA numero
     
         SI  numero >= 50 Y numero <= 100 ENTONCES
@@ -286,7 +286,7 @@
     ```py
     numero = 0.0
 
-    numero = float(input("Dijite un numero: "))
+    numero = float(input("Digite un número: "))
     
     if numero >= 50 and numero <= 100 :
         print("El número esta en el rango de 50 y 100")
