@@ -6,6 +6,8 @@ INICIO
 
   DEFINIR edad como entero
   
+  edad = 0
+
   ESCRIBA"Digite su edad: "
   LEA edad
   
