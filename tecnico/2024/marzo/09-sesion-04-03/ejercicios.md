@@ -1,5 +1,11 @@
 - Ejercicio 1
 ```py
+        msgError = "Error, su inversión no es válida."
+        msgOk = "Su Inversión fue registrada con éxito."
+        msgInput = "Digite la inversión de la persona "
+        msgOutput = "El porcentaje de inversión de la persona  "
+
+        p1 = float(input(msgInput + "1: "))
 try:
     p1 = float(input(msgInput + "1: "))
     if p1 > 0:
