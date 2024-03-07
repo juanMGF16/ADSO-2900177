@@ -125,24 +125,23 @@
         LEA tQ2
         ESCRIBA"Digite la calificación de su tercera tarea de quimica: "
         LEA tQ3
-
-        tareasM = (tM1 + tM2 + tM3 / 3)
-        porcientoEM = (examenM * 90 / 100)
-        porcientoTM = (tareasM * 10 / 100)
-        promedioM = (porcientoEM + porcientoTM / 2)
+        tareasM = (tM1 + tM2 + tM3) / 3
+        porcientoEM = (examenM * 90) / 100
+        porcientoTM = (tareasM * 10 ) / 100
+        promedioM = (porcientoEM + porcientoTM )
         
-        tareasF = (tF1 + tF2 / 2)
-        porcientoEF = (examenF * 80 / 100)
-        porcientoTF = (tareasF * 20 / 100)
-        promedioF = (porcientoEF + porcientoTF / 2)
+        tareasF = (tF1 + tF2) / 2
+        porcientoEF = (examenF * 80) / 100
+        porcientoTF = (tareasF * 20) / 100
+        promedioF = (porcientoEF + porcientoTF)
         
-        tareasQ = (tQ1 + tQ2 + tQ3 / 3)
-        porcientoEQ = (examenQ * 85 / 100)
-        porcientoTQ = (tareasQ * 15 / 100)
-        promedioQ = (porcientoEQ + porcientoTQ / 2)
-
-        promedioGeneral = promedioM + promedioF + promedioQ / 3
-
+        tareasQ = (tQ1 + tQ2 + tQ3) / 3
+        porcientoEQ = (examenQ * 85) / 100
+        porcientoTQ = (tareasQ * 15) / 100
+        promedioQ = (porcientoEQ + porcientoTQ)
+            
+        promedioGeneral = (promedioM + promedioF + promedioQ) / 3
+    
         ESCRIBA"El promedio de la materia de matematicas es de: ",promedioM
         ESCRIBA"El promedio de la materia de fisica es de: ",promedioF
         ESCRIBA"El promedio de la materia de quimica es de: ",promedioQ
@@ -189,22 +188,22 @@
     tQ2 = float(input("Digite la calificación de su segunda tarea de quimica: "))
     tQ3 = float(input("Digite la calificación de su tercera tarea de quimica: "))
     
-    tareasM = (tM1 + tM2 + tM3 / 3)
-    porcientoEM = (examenM * 90 / 100)
-    porcientoTM = (tareasM * 10 / 100)
-    promedioM = (porcientoEM + porcientoTM / 2)
+    tareasM = (tM1 + tM2 + tM3) / 3
+    porcientoEM = (examenM * 90) / 100
+    porcientoTM = (tareasM * 10 ) / 100
+    promedioM = (porcientoEM + porcientoTM )
     
-    tareasF = (tF1 + tF2 / 2)
-    porcientoEF = (examenF * 80 / 100)
-    porcientoTF = (tareasF * 20 / 100)
-    promedioF = (porcientoEF + porcientoTF / 2)
+    tareasF = (tF1 + tF2) / 2
+    porcientoEF = (examenF * 80) / 100
+    porcientoTF = (tareasF * 20) / 100
+    promedioF = (porcientoEF + porcientoTF)
     
-    tareasQ = (tQ1 + tQ2 + tQ3 / 3)
-    porcientoEQ = (examenQ * 85 / 100)
-    porcientoTQ = (tareasQ * 15 / 100)
-    promedioQ = (porcientoEQ + porcientoTQ / 2)
+    tareasQ = (tQ1 + tQ2 + tQ3) / 3
+    porcientoEQ = (examenQ * 85) / 100
+    porcientoTQ = (tareasQ * 15) / 100
+    promedioQ = (porcientoEQ + porcientoTQ)
         
-    promedioGeneral = promedioM + promedioF + promedioQ / 3
+    promedioGeneral = (promedioM + promedioF + promedioQ) / 3
     
     print("El promedio de la materia de matematicas es de: "+str(promedioM))
     print("El promedio de la materia de fisica es de: "+str(promedioF))
