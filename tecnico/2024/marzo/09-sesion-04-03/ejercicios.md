@@ -38,7 +38,91 @@ except ValueError:
         print("El valor ingresado no es un número válido.")
 ```
 - Ejercicio 2
-```
+```py
+try:
+    msgError = "Error, dato no válida."
+    msgOk = "dato correcto, ok."
+    msgInput = "Favor, indique la nota de la Evaluacion "
+    msgInputT = "Favor, indique la nota de la Tarea "
+    msgOutput = "El promedio de "
+    msgg = "El promedio general es: "
+
+    examenM = float(input(msgInput + "de Matematicas: "))
+    if examenM >= 1.0 and examenM <= 5.0:
+        print(msgOk)
+        tM1 = float(input(msgInputT + "1: "))
+        if tM1 >= 1.0 and examenM <= 5.0:
+            print(msgOk)
+            tM2 = float(input(msgInputT + "2: "))
+            if tM2 >= 1.0 and examenM <= 5.0:
+                print(msgOk)
+                tM3 = float(input(msgInputT + "3: "))
+                if tM3 >= 1.0 and examenM <= 5.0:
+                    print(msgOk)
+                    examenF = float(input(msgInput + "de Fisica: "))
+                    if examenF >= 1.0 and examenM <= 5.0:
+                        print(msgOk)
+                        tF1 = float(input(msgInputT + "1: "))
+                        if tF1 >= 1.0 and examenM <= 5.0:
+                            print(msgOk)
+                            tF2 = float(input(msgInputT + "2: "))
+                            if tF2 >= 1.0 and examenM <= 5.0:
+                                print(msgOk)
+                                examenQ = float(input(msgInput + "de Quimica: "))
+                                if examenQ >= 1.0 and examenM <= 5.0:
+                                    print(msgOk)
+                                    tQ1 = float(input(msgInputT + "1: "))
+                                    if tQ1 >= 1.0 and examenM <= 5.0:
+                                        print(msgOk)
+                                        tQ2 = float(input(msgInputT + "2: "))
+                                        if tQ2 >= 1.0 and examenM <= 5.0:
+                                            print(msgOk)
+                                            tQ3 = float(input(msgInputT + "3: "))
+                                            if tQ3 >= 1.0 and examenM <= 5.0:
+                                                print(msgOk)
+                                                tareasM = (tM1 + tM2 + tM3) / 3
+                                                porcientoEM = (examenM * 90) / 100
+                                                porcientoTM = (tareasM * 10 ) / 100
+                                                promedioM = (porcientoEM + porcientoTM )
+
+                                                tareasF = (tF1 + tF2) / 2
+                                                porcientoEF = (examenF * 80) / 100
+                                                porcientoTF = (tareasF * 20) / 100
+                                                promedioF = (porcientoEF + porcientoTF)
+
+                                                tareasQ = (tQ1 + tQ2 + tQ3) / 3
+                                                porcientoEQ = (examenQ * 85) / 100
+                                                porcientoTQ = (tareasQ * 15) / 100
+                                                promedioQ = (porcientoEQ + porcientoTQ)
+                                                    
+                                                promedioGeneral = (promedioM + promedioF + promedioQ) / 3
+
+                                                print(msgOutput + "Matematicas es de: "+str(promedioM))
+                                                print(msgOutput + "Fisica es de: "+str(promedioF))
+                                                print(msgOutput + "Quimica es de: "+str(promedioQ))
+                                                print(msgg + str(promedioGeneral))
+                                        else:
+                                            print(msgError)    
+                                    else:
+                                        print(msgError)
+                                else:
+                                    print(msgError)
+                            else:
+                                print(msgError)    
+                        else:
+                            print(msgError)
+                    else:
+                        print(msgError)
+                else:
+                    print(msgError)
+            else:
+                print(msgError)
+        else:
+            print(msgError)
+    else:
+        print(msgError)
+except:
+    print(msgError)
 
 ```
 - Ejercicio 3
