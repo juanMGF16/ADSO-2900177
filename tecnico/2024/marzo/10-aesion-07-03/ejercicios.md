@@ -30,7 +30,7 @@
 #     print("Digito no valido, solo se aceptan números")   
 ```
    
-- 3-
+- 3
 ```py
 try: 
     n1 = float(input("digite el primer número: "))
