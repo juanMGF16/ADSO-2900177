@@ -1,33 +1,34 @@
-- 1.
+- 1
 ```py
-# numero = 0.0
+numero = 0.0
 
-# while numero == 0:
-#     try:
-#         numero = float(input("digite un número: "))
-#         if numero % 2==0:
-#             print("el número es par")
-#         else:
-#             print("el número es impar")
-#     except:
-#         print("Digito no valido, solo se aceptan números")
-#         numero = 0
+while numero == 0:
+    try:
+        numero = float(input("digite un número: "))
+        if numero % 2==0:
+           print("el número es par")
+        else:
+           print("el número es impar")
+    except:
+        print("Digito no valido, solo se aceptan números")
+        numero = 0
 ```
 
-- 2.
+- 2
 ```py
-# try: 
-#     numero = float(input("digite un número: "))
-#     if numero % 2==0:
-#         print("el número es par")  
-#     else:
-#         print("el número es impar")  
-#     if numero > 0 :
-#         print("el numero es positivo")
-#     else:
-#         print("el numero es negativo") 
-# except:
-#     print("Digito no valido, solo se aceptan números")   
+
+try: 
+    numero = float(input("digite un número: "))
+    if numero % 2==0:
+        print("el número es par")  
+    else:
+        print("el número es impar")  
+    if numero > 0 :
+        print("el numero es positivo")
+    else:
+        print("el numero es negativo") 
+except:
+    print("Digito no valido, solo se aceptan números")   
 ```
    
 - 3
