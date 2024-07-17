@@ -1,0 +1,35 @@
+body{
+  background: rgb(237,144,235);
+  background: linear-gradient(90deg, rgba(237,144,235,1) 26%, rgba(126,209,226,1) 100%);
+}
+.columna-bingo {
+    background-color: rgb(103, 255, 204) !important; /* Color de fondo amarillo para resaltar */
+    font-weight: bold; /* Texto en negrita */
+    color: crimson !important;
+}
+
+th{
+  padding: 30px !important;
+  border: 1px solid rgb(150, 168, 173) !important;
+  /* border-radius: 10px; */
+  margin-top: 15px !important;
+  /* margin: 6px !important; */
+}
+
+.blan{
+  background-color: silver !important;
+}
+.segundax{
+  background-color: rgb(11, 129, 161) !important;
+}
+.tercerx{
+  background-color: rgb(159, 61, 224) !important;
+}
+.cuartax{
+  background-color: rgb(55, 204, 130) !important;
+}
+th {
+  border-color: inherit;
+  border-style: none;
+  border-width: 0;
+} 
