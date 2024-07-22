@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio</title>
+    <script src="js/salario.js"></script>
+</head>
+<body>
+    <script>
+        let diasTra = 30;
+        let valorDia= 60000;
+        let sueldoP = sueldo(diasTra,valorDia);
+        let saludP = salud(sueldoP);
+        let pensionP = pension(sueldoP);
+        let arlP = arl(sueldoP);
+        let sueldoTotal= pagoTotal(sueldoP);
+
+        let diasTraa = 30;
+        let valorDiaa= 150000;
+        let sueldoPp = expsueldo(diasTraa,valorDiaa);
+        let saludPp = expsalud(sueldoPp);
+        let pensionPp = exppension(sueldoPp);
+        let arlPp = exparl(sueldoPp);
+        let sueldoTotall= exppagoTotal(sueldoPp);
+        
+        // console.log("Con parametros, Su sueldo es de: "+sueldoP);   
+        // console.log("Con exprecion, Su sueldo es de: "+sueldoPp);   
+        // console.log("Con parametros, Su salud es de: "+saludP);   
+        // console.log("Con exprecion, Su salud es de: "+saludPp);   
+        // console.log("Con parametros, Su pension es de: "+pensionP);   
+        // console.log("Con exprecion, Su pension es de: "+pensionPp);   
+        // console.log("Con parametros, Su arl es de: "+arlP);   
+        // console.log("Con exprecion, Su arl es de: "+arlPp);   
+        console.log("Con parametros, Su sueldo Total es de: "+sueldoTotal);   
+        console.log("Con exprecion, Su sueldo Total es de: "+sueldoTotall);   
+    </script>
+</body>
+</html>

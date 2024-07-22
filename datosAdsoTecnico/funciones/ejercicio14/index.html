@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio_14</title>
+    <script src="js/sueldo.js"></script>
+</head>
+<body>
+    <script>
+        let diasTra = 10;
+        let valorDia= 600000;
+        let sueldoP = sueldo(diasTra,valorDia);
+        let saludP = salud(sueldoP, 0.12);
+        let pensionP = pension(sueldoP, 0.16);
+        let arlP = arl(sueldoP, 0.052);
+        let salarioMinimoP = 1300000;
+        let sudTransporte = modifSueldoTransporte(sueldoP,salarioMinimoP);
+        let retencionSiu = modifSueldoRetencion(sueldoP,salarioMinimoP);
+        let sueldoTotal= pagoTotal(sueldoP);
+
+        // console.log("Su sueldo es de: "+sueldoP);
+        // console.log("Su salud es de: "+saludP);
+        // console.log("Su pension es de: "+pensionP);
+        // console.log("Su arl es de: "+arlP);
+        // console.log("con parametros: Su subcidio de transporte es de: "+sudTransporte);
+        // console.log("con exprecion: Su subcidio de transporte es de: "+sudTransporte);
+        // console.log("con parametros: Su retencion es de: "+retencionSiu);
+        // console.log("con parametros: Su retencion es de: "+retencionSiu);
+        console.log("con parametros: Su sueldo total es de: "+sueldoTotal);
+        console.log("con exprecion: Su sueldo total es de: "+sueldoTotal);
+    </script>
+</body>
+</html>

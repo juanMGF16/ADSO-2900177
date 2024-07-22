@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Areas Figuras Geometricas</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <script src="../bootstrap/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="../fontawesome/css/all.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row forma justify-content-center">
+            <div class="formulario col-6">
+                <form class="row g-3 needs-validation  justify-content-center" novalidate onsubmit="return operar()">
+                    <h5>Area Cuadrado</h5>
+                    <div class="col-md-10">
+                        <!-- <label for="txtLadoC" class="form-label"></label> -->
+                        <input type="number" class="form-control" id="txtLadoC" placeholder="Lado del Cuadrado" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+                    <h5>Area Rectangulo</h5>
+                    <div class="col-md-10">
+                        <!-- <label for="txtBaseT" class="form-label">Base del Rectangulo</label> -->
+                        <input type="number" class="form-control" id="txtBaseR" placeholder="Base del Rectangulo" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-10">
+                        <!-- <label for="txtAlturaT" class="form-label">Altura del Rectangulo</label> -->
+                        <input type="number" class="form-control" id="txtAlturaR" placeholder="Altura del Rectangulo" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+                    <h5>Area Triangulo</h5>
+                    <div class="col-md-10">
+                        <!-- <label for="txtBaseT" class="form-label">Base del Triangulo</label> -->
+                        <input type="number" class="form-control" id="txtBaseT" placeholder="Base del Triangulo" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-10">
+                        <!-- <label for="txtAlturaT" class="form-label">Altura del Triangulo</label> -->
+                        <input type="number" class="form-control" id="txtAlturaT" placeholder="Altura del Triangulo" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button class="btn btn-dark" type="sutmit">
+                            Calcular <i class="fa-solid fa-calculator"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-4">
+                <div id="operacion"></div>
+            </div>
+        </div>
+    </div>
+    <script src="../bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="js/validar.js"></script>
+    <script src="js/areas.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio</title>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <script>
+        let persona1 = edadPersona(2000,2024); 
+        let persona2 = edadPersona(2014,2024); 
+        let persona3 = edadPersona(2006,2024);
+        let sumaE = (persona1 + persona2 + persona3) / 3;
+
+        let persona4 = expedadPersona(2014,2024); 
+        let persona5 = expedadPersona(2016,2024); 
+        let persona6 = expedadPersona(2009,2024);
+        let sumaEt = (persona4 + persona5 + persona6) / 3;
+
+
+        // console.log("con parametros: "+persona1);
+        // console.log(condicion(persona2));
+        // console.log(condicion(persona3));
+        console.log("con parametros: "+mayoriaEdad(sumaE));
+
+        // console.log("con exprecion: "+persona4);
+        // console.log(expcondicion(persona5));
+        // console.log(expcondicion(persona6));
+        console.log("con expresion: "+expmayoriaEdad(sumaEt));
+    </script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">salario persona</h1>
+            <div class="col-12">
+                <div class="col-4">
+                    <label for="">Dias trabajados</label> <br>
+                    <input class="form-control" type="text" name="txtDiasT" id="txtDiasT" required>
+                    <div class="invalid-feedback">
+                        Please provide a valid zip.
+                      </div>
+                </div>
+                <br>
+                <div class="col-4">
+                    <label for="">Valor dia</label> <br>
+                    <input class="form-control" type="text" name="txtValorD" id="txtValorD" required>
+                    <div class="invalid-feedback">
+                        Please provide a valid zip.
+                      </div>
+                </div>
+                <br>
+                <div class="col-4">
+                    <button class="btn btn-dark" onclick="mandar();">Digitar</button>
+                </div>
+            </div>
+            <br>
+            <div class="col-12">
+                <div class="col-6">
+                    <div id="salida" class="letra"></div>
+                </div>
+            </div>
+    </div>
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

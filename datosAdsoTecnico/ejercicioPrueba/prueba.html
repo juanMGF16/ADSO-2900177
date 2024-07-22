@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba 2</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../fontawesome/css/all.css">
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="js/main2.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Button trigger modal -->
+        <div class="baja">
+            <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Registro <i class="fa-solid fa-clipboard"></i>
+            </button>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Registro Persona</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="col-12">
+                            <div class="">
+                                <label for="">Cedula</label> <br>
+                                <input class="form-control" type="text" name="txtCedula" id="txtCedula" required>
+                                <div class="invalid-feedback">
+                                    Please provide a valid zip.
+                                </div>
+                            </div>
+                            <br>
+                            <div class="">
+                                <label for="">Nombres</label> <br>
+                                <input class="form-control" type="text" name="txtNombres" id="txtNombres" required>
+                                <div class="invalid-feedback">
+                                    Please provide a valid zip.
+                                </div>
+                            </div>
+                            <br>
+                            <div class="col-12">
+                                <div class="">
+                                    <label for="">Apellidos</label> <br>
+                                    <input class="form-control" type="text" name="txtApellidos" id="txtApellidos"
+                                        required>
+                                    <div class="invalid-feedback">
+                                        Please provide a valid zip.
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="">
+                                    <label for="">Edad</label> <br>
+                                    <input class="form-control" type="text" name="txtEdad" id="txtEdad" required>
+                                    <div class="invalid-feedback">
+                                        Please provide a valid zip.
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="col-12">
+                                    <div class="">
+                                        <label for="">Estrato</label> <br>
+                                        <input class="form-control" type="text" name="txtEstrato" id="txtEstrato"
+                                            required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid zip.
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="">
+                                        <label for="">Dias trabajados</label> <br>
+                                        <input class="form-control" type="text" name="txtDiasT" id="txtDiasT" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid zip.
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="col-12">
+                                        <div class="">
+                                            <label for="">Valor dia</label> <br>
+                                            <input class="form-control" type="text" name="txtValorD" id="txtValorD"
+                                                required>
+                                            <div class="invalid-feedback">
+                                                Please provide a valid zip.
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-dark" onclick="mandar()">Save
+                                            changes</button>
+                                            <i ></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container baja">
+        <div id="cuerpoTabla">
+
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+.letra{
+    font-weight: bold;
+}
+table{
+    border-collapse: collapse;
+}
+th,td {
+    width: 150px;
+    border: 1px dashed #000;
+    padding: 5px;
+    text-align: center;
+}
+.baja{
+    margin-top: 40px;
+}
+.compo{
+    border: 1px dashed aqua;
+    width: 150px;
+    height: 150px;
+}
+.e{
+    display: grid;
+    grid-template-columns: repeat(5,150px);
+}
+.h{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.muestra{
+    border: 1px solid #000;
+    height: 150px;
+}
+.x {
+    background-color: rgb(0, 255, 213); 
+    font-weight: bold; 
+}
+.modal{
+    background: rgb(237,144,235);
+    background: linear-gradient(90deg, rgba(237,144,235,1) 26%, rgba(126,209,226,1) 100%);
+}
+body{
+    background: rgb(237,144,235);
+    background: linear-gradient(90deg, rgba(237,144,235,1) 26%, rgba(126,209,226,1) 100%);
+}

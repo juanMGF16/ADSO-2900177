@@ -1,0 +1,27 @@
+/*
+saludo -> hola mundo
+autor: Juan M. Gutierrez
+fecha: 17 de junio de 2024
+*/
+
+.forma{
+    width: 1050px;
+    /* border: 1px solid #000; */
+    margin-top: 90px;
+}
+.formulario{
+    border: 2px dashed aqua;
+}
+.respuesta{
+    background-color: rgb(159, 163, 163);
+    padding: 20px;
+    border: 2px dashed aqua;
+    max-height: 400px;
+    overflow-y: auto;
+    border: 2px dashed rgb(131, 131, 131);
+}
+.formulario, .respuesta{
+    margin-left: 10px;
+    border-radius: 8px;
+    padding: 15px;
+}

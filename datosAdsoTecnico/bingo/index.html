@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bingo</title>
+
+    <!-- Bootstrap css-->
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/estilo.css">
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h1 class="text-center">Bingo</h1>
+      <div>
+        <div class="row col-8">
+          <div class="col-5">
+            <input width="50px" class="form-control" type="number" name="txtNum" id="txtNum" placeholder="Digite un Número" required>
+            <br>
+            <button class="btn btn-dark" id="botonB">Carton Bingo</button>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="d-flex justify-content-around">
+        <button class="btn btn-dark" style="display: none" id="letraB">Carton Letra B</button>
+        <button class="btn btn-dark" style="display: none" id="letraI">Carton Letra I</button>
+        <button class="btn btn-dark" style="display: none" id="letraN">Carton Letra N</button>
+        <button class="btn btn-dark" style="display: none" id="letraG">Carton Letra G</button>
+        <button class="btn btn-dark" style="display: none" id="letraO">Carton Letra O</button>
+        <button class="btn btn-dark" style="display: none" id="botonx">Carton X</button>
+        <button class="btn btn-dark" style="display: none" id="botonXXX">Carton xXx</button>
+      </div>
+      
+      <div class="row justify-content-center accordion accordion-flush" id="accordionFlushExample">
+        <div class="col-5 capa">
+          <table class="table-striped mt-5 text-center">
+            <tbody id="table"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap js -->
+    <script src="../bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="../bootstrap/js/bootstrap.js"></script>
+
+    <script src="js/bingo.js"></script>
+    <script src="js/validar.js"></script>
+  </body>
+</html>
